@@ -1,0 +1,31 @@
+# Node modules (her zaman yeniden kurulmalı)
+node_modules/
+
+# Build çıktıları
+build/
+dist/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Çevre değişkenleri
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Lock dosyası (opsiyonel)
+# Eğer tamamen temiz kuruluma güvenmek istiyorsan ekle:
+# package-lock.json
+# yarn.lock
